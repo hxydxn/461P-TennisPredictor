@@ -136,11 +136,11 @@ def main():
             'player_2_position_x': player_2_position[0],
             'player_2_position_y': player_2_position[1],
             'player_serve': 1,
-            'point_winner': 2
+            'point_winner': 1
         })
 
     collected_data_df = pd.DataFrame(collected_data)
-    collected_data_df.to_csv("output_videos/collected_dataPT6.csv", index=False)
+    collected_data_df.to_csv("output_videos/collected_dataTHROWAWAY.csv", index=False)
 
 
 
